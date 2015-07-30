@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BA26F26E1B6A2CD30036AA18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA26F26D1B6A2CD30036AA18 /* AppDelegate.swift */; };
-		BA26F2701B6A2CD30036AA18 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA26F26F1B6A2CD30036AA18 /* GameScene.sks */; };
 		BA26F2721B6A2CD30036AA18 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA26F2711B6A2CD30036AA18 /* GameScene.swift */; };
 		BA26F2741B6A2CD30036AA18 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA26F2731B6A2CD30036AA18 /* GameViewController.swift */; };
 		BA26F2771B6A2CD30036AA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA26F2751B6A2CD30036AA18 /* Main.storyboard */; };
@@ -17,6 +16,8 @@
 		BA26F2871B6A2CD30036AA18 /* Run_NinjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA26F2861B6A2CD30036AA18 /* Run_NinjaTests.swift */; };
 		BA26F2921B6A2CD30036AA18 /* Run_NinjaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA26F2911B6A2CD30036AA18 /* Run_NinjaUITests.swift */; };
 		BA26F2A01B6A332D0036AA18 /* RNMovingGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA26F29F1B6A332D0036AA18 /* RNMovingGround.swift */; };
+		BA26F2A21B6A39ED0036AA18 /* RNHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA26F2A11B6A39ED0036AA18 /* RNHero.swift */; };
+		BA26F2A41B6A94910036AA18 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA26F2A31B6A94910036AA18 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 /* Begin PBXFileReference section */
 		BA26F26A1B6A2CD30036AA18 /* Run Ninja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Run Ninja.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA26F26D1B6A2CD30036AA18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA26F26F1B6A2CD30036AA18 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		BA26F2711B6A2CD30036AA18 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		BA26F2731B6A2CD30036AA18 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		BA26F2761B6A2CD30036AA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		BA26F2911B6A2CD30036AA18 /* Run_NinjaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run_NinjaUITests.swift; sourceTree = "<group>"; };
 		BA26F2931B6A2CD30036AA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA26F29F1B6A332D0036AA18 /* RNMovingGround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNMovingGround.swift; sourceTree = "<group>"; };
+		BA26F2A11B6A39ED0036AA18 /* RNHero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNHero.swift; sourceTree = "<group>"; };
+		BA26F2A31B6A94910036AA18 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				BA26F26D1B6A2CD30036AA18 /* AppDelegate.swift */,
-				BA26F26F1B6A2CD30036AA18 /* GameScene.sks */,
 				BA26F2711B6A2CD30036AA18 /* GameScene.swift */,
 				BA26F2731B6A2CD30036AA18 /* GameViewController.swift */,
 				BA26F2751B6A2CD30036AA18 /* Main.storyboard */,
@@ -112,6 +113,8 @@
 				BA26F27A1B6A2CD30036AA18 /* LaunchScreen.storyboard */,
 				BA26F27D1B6A2CD30036AA18 /* Info.plist */,
 				BA26F29F1B6A332D0036AA18 /* RNMovingGround.swift */,
+				BA26F2A11B6A39ED0036AA18 /* RNHero.swift */,
+				BA26F2A31B6A94910036AA18 /* Constants.swift */,
 			);
 			path = "Run Ninja";
 			sourceTree = "<group>";
@@ -237,7 +240,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA26F2701B6A2CD30036AA18 /* GameScene.sks in Resources */,
 				BA26F27C1B6A2CD30036AA18 /* LaunchScreen.storyboard in Resources */,
 				BA26F2791B6A2CD30036AA18 /* Assets.xcassets in Resources */,
 				BA26F2771B6A2CD30036AA18 /* Main.storyboard in Resources */,
@@ -268,7 +270,9 @@
 				BA26F2721B6A2CD30036AA18 /* GameScene.swift in Sources */,
 				BA26F2741B6A2CD30036AA18 /* GameViewController.swift in Sources */,
 				BA26F2A01B6A332D0036AA18 /* RNMovingGround.swift in Sources */,
+				BA26F2A21B6A39ED0036AA18 /* RNHero.swift in Sources */,
 				BA26F26E1B6A2CD30036AA18 /* AppDelegate.swift in Sources */,
+				BA26F2A41B6A94910036AA18 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
